@@ -11,4 +11,4 @@ Sample of a chat application that's consume a simple socket server in node.js
 - Always launch fresh installs of app when restart server.
 
 ## Important
-- Server script from @joyceHong0524(https://github.com/joyceHong0524)
+- Original server script from @joyceHong0524(https://github.com/joyceHong0524) 
