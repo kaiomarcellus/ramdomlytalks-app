@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name" translatable="false">Randomly Talks App</string>
+    <string name="action_settings">Configurações</string>
+
+    <string name="room_list_fragment_label">Salas disponíveis</string>
+    <string name="conversation_fragment_label" translatable="false">Chat</string>
+
+    <string name="title_label_set_username">Informe seu nome de usuário</string>
+    <string name="hint_label_set_username">Ex.: Steve Jobs, Mark, Tom</string>
+    <string name="action_label_set_username">Salvar</string>
+    <string name="title_label_room_list">Lista de salas</string>
+    <string name="warning_define_your_username">Você precisa definir o seu nome de usuário.</string>
+    <string name="rooms_option_title_label">Escolha uma opção</string>
+    <string name="rooms_option_title_label_fix_on_top">Fixar no topo</string>
+    <string name="rooms_option_title_label_hide_list">Remover da lista (para mim)</string>
+    <string name="rooms_option_action_confirm">Confirmar</string>
+    <string name="conversation_label_attention">Atenção</string>
+    <string name="conversation_label_unavailable_room">Sala indisponível no momento..</string>
+    <string name="room_list_label_new_room">Novo chat</string>
+    <string name="room_list_label_touch_to_set">Toque para definir</string>
+    <string name="room_list_label_you_need_to_set_username">Você precisa informar seu nome de usuário para acessar as salas disponíveis.</string>
+    <string name="action_label_enter">Entrar</string>
+    <string name="hint_label_chat_name">Ex. Champions League, Real Madrid</string>
+    <string name="title_label_set_chat_name">Dê um nome para a sala</string>
+    <string name="type_your_message">Digite sua mensagem..</string>
+    <string name="label_action_jump_onboarding">Pular</string>
+    <string name="label_action_finish_onboarding">Continuar</string>
+    <string name="label_text_onboarding_one">01. Informe um nome de usuário qualquer para começar a conversar!</string>
+    <string name="label_text_onboarding_two">02. Se não houver nenhuma sala do seu interesse, insira um nome e aguarde por usuários!</string>
+    <string name="label_text_onboarding_three">03. Tudo pronto, agora é só conversar!</string>
+</resources>

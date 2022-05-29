@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/RoomListFragment">
+
+    <fragment
+        android:id="@+id/RoomListFragment"
+        android:name="br.com.kmdev.randomlytalksapp.ui.rooms.RoomListFragment"
+        android:label="@string/room_list_fragment_label"
+        tools:layout="@layout/fragment_room_list">
+
+        <action
+            android:id="@+id/action_RoomList_to_Conversation"
+            app:destination="@id/ConversationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ConversationFragment"
+        android:name="br.com.kmdev.randomlytalksapp.ui.conversation.ConversationFragment"
+        android:label="@string/conversation_fragment_label"
+        tools:layout="@layout/fragment_conversation">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_RoomListFragment"
+            app:destination="@id/RoomListFragment" />
+    </fragment>
+</navigation>

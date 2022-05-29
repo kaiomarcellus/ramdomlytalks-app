@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="InputComponent.InputOutline" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:bottomLeftRadius">4dp</item>
+        <item name="android:bottomRightRadius">4dp</item>
+        <item name="android:topLeftRadius">4dp</item>
+        <item name="android:topRightRadius">4dp</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="boxStrokeColor">?colorOnBackground</item>
+        <item name="boxStrokeErrorColor">@android:color/holo_red_dark</item>
+        <item name="errorIconTint">@android:color/holo_red_dark</item>
+    </style>
+
+    <style name="InputComponent.InputEditTextOutline" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Body1</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">?colorOnBackground</item>
+    </style>
+</resources>

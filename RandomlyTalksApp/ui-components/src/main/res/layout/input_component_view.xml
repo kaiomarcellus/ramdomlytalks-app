@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/inputContainer"
+        android:layout_width="match_parent"
+        android:layout_height="52dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputLayout"
+            style="@style/InputComponent.InputOutline"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:errorTextColor="@android:color/holo_red_dark"
+            app:hintEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputContent"
+                style="@style/InputComponent.InputEditTextOutline"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:hint="Input label" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ProgressBar
+            android:id="@+id/inputProgress"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginEnd="16dp"
+            android:indeterminate="true"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <br.com.kmdev.ui.components.TextViewComponent
+        android:id="@+id/inputErrorMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12sp"
+        android:visibility="gone"
+        app:textViewFontMedium="true" />
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivRoomFixedIndicator"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="4dp"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_round_stars_24"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <br.com.kmdev.ui.components.TextViewComponent
+            android:id="@+id/tvRoomTitle"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_toEndOf="@+id/ivRoomFixedIndicator"
+            android:drawableEnd="@drawable/ic_round_keyboard_arrow_right_24"
+            android:gravity="center_vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:textViewFontBold="true"
+            tools:text="Item label" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="0.3"
+        android:background="?colorOnBackground"
+        app:layout_constraintTop_toBottomOf="@+id/tvRoomTitle" />
+
+</LinearLayout>

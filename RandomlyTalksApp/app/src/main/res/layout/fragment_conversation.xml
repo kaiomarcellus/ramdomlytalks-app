@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.conversation.ConversationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/cardConversationSendContainer"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <br.com.kmdev.ui.components.TextViewComponent
+            android:id="@+id/tvConversationRoomName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            app:textViewFontBold="true"
+            tools:text="@string/app_name" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:alpha="0.3"
+            android:background="?colorOnBackground" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvConversationMessages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardConversationSendContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:cardBackgroundColor="?colorOnPrimary"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:id="@+id/viewConversationSendContainer"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_alignParentBottom="true"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp">
+
+            <br.com.kmdev.ui.components.InputComponent
+                android:id="@+id/inputConversationMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:layout_toStartOf="@+id/fabConversationSend"
+                android:hint="@string/type_your_message"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                app:inputFontBold="true" />
+
+            <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                android:id="@+id/fabConversationSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                app:icon="@drawable/ic_round_send_24"
+                app:iconTint="?colorOnPrimary" />
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

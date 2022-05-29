@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextViewComponent">
+        <attr name="textViewFontMedium" format="boolean" />
+        <attr name="textViewFontBold" format="boolean" />
+        <attr name="textViewFontExtraBold" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="RadioButtonComponent">
+        <attr name="radioButtonFontMedium" format="boolean" />
+        <attr name="radioButtonFontBold" format="boolean" />
+        <attr name="radioButtonFontExtraBold" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="InputComponent">
+        <attr name="android:hint" />
+        <attr name="android:text" />
+        <attr name="android:inputType" />
+        <attr name="android:imeOptions" />
+        <attr name="android:drawableEnd" />
+        <attr name="android:gravity" />
+        <attr name="inputFontMedium" format="boolean" />
+        <attr name="inputFontBold" format="boolean" />
+        <attr name="inputFontExtraBold" format="boolean" />
+        <attr name="inputPassword" format="boolean" />
+        <attr name="inputMultiline" format="boolean" />
+    </declare-styleable>
+</resources>

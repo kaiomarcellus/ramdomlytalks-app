@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/circle_step_selector.xml" value="0.213" />
+        <entry key="app/src/main/res/drawable/ic_round_keyboard_arrow_right_24.xml" value="0.213" />
+        <entry key="app/src/main/res/drawable/ic_round_send_24.xml" value="0.213" />
+        <entry key="app/src/main/res/drawable/ic_round_settings_24.xml" value="0.22" />
+        <entry key="app/src/main/res/drawable/ic_round_stars_24.xml" value="0.213" />
+        <entry key="app/src/main/res/drawable/shape_message_from.xml" value="0.213" />
+        <entry key="app/src/main/res/drawable/shape_message_to.xml" value="0.213" />
+        <entry key="app/src/main/res/drawable/shape_step_default.xml" value="0.213" />
+        <entry key="app/src/main/res/drawable/shape_step_selected.xml" value="0.213" />
+        <entry key="app/src/main/res/drawable/sheet_indicator.xml" value="0.159" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.49907407407407406" />
+        <entry key="app/src/main/res/layout/activity_onboarding.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.21302083333333333" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.42693110647181626" />
+        <entry key="app/src/main/res/layout/fragment_conversation.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.18425925925925926" />
+        <entry key="app/src/main/res/layout/fragment_onboarding_page.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_room_list.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.21302083333333333" />
+        <entry key="app/src/main/res/layout/item_view_conversatino.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_view_conversation.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/item_view_room.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/sheet_view_new_chat.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/sheet_view_room_options.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/sheet_view_settings_for_chat.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/menu_main.xml" value="0.21302083333333333" />
+        <entry key="ui-components/src/main/res/layout/input_component.xml" value="0.1" />
+        <entry key="ui-components/src/main/res/layout/input_component_view.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
